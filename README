@@ -1,0 +1,16 @@
+## Description
+Ultrasonic - Library for HC-SR04 Ultrasonic Ranging Module
+
+## Installation
+Arduino IDE -> Sketch -> Import Library... -> Add Library...
+Restart IDE
+   
+## Synopsis
+#include <Ultrasonic.h>
+
+Ultrasonic ultrasonic(TRIG_PIN, ECHO_PIN);   
+long duration = ultrasonic.measure_duration();
+Serial.print(ultrasonic.microseconds_to_cm());
+
+## License
+Ultrasonic library is covered by the GNU General Public License version 2

@@ -1,0 +1,4 @@
+Ultrasonic		KEYWORD1
+measure_duration	KEYWORD2
+microseconds_to_cm	KEYWORD2
+TTL	LITERAL1	Constants
